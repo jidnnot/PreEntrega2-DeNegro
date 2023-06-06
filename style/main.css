@@ -161,8 +161,9 @@
         
     }
     .texto {
-        font-size: 25px;
+        font-size: 20px;
         color: white;
+
     }
     /* Diseño del Footer */
     .pie-de-pagina {
@@ -402,6 +403,12 @@
     .escondido {
         visibility: hidden;
     }
+    /* Aca va el alineamiento del titulo */
+    .alineado-titulo {
+        position: relative;
+        top: 2em;
+        padding-left: 1em;
+    }
     /* Aca va el diseño del Encabezado */
     .encabezado {
         border-color: black;
@@ -512,7 +519,7 @@
     .introduccion {
         display: flex;
         width: 80%;
-        height: 50em;
+        height: 60em;
     /* -----------------Bordes y Posicion--------------------*/
         border: black;
         border-width: 3px;
@@ -530,12 +537,12 @@
         margin-top: 4em;
     }
     .bienvenida {
-        font-size: 60px;
+        font-size: 50px;
         color: white;
     
     }
     .sub-titulo {
-        font-size: 38px;
+        font-size: 25px;
         color: white;
     
     }
@@ -548,7 +555,7 @@
         
     }
     .texto {
-        font-size: 25px;
+        font-size: 20px;
         color: white;
     }
     /* Diseño del Footer */
@@ -561,6 +568,7 @@
     /* -----------------Flex, Padding y margin--------------------*/
         padding-top: 1em;
         padding-bottom: 1em;
+        margin-top: 10em;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -570,6 +578,7 @@
         /* width y height*/
         width: 100%;
         height: 6em;
+        position: relative;
     }
     .contenedor-main {
         display: flex;
@@ -658,29 +667,28 @@
         border-width: 3px;
         border-style: solid;
         width: 80%;
-        height: 640px;
+        height: 55em;
         margin-top: 100px;
-        
+        padding: 20px;
     }
     .titulo-generico {
         margin-top: 20px;
     }
     .pikachu-dance {
         margin-top: 10px;
-        width: 400px;
-        height: 1000px;
+        width: 300px;
+        height: 400px;
     }
     .trainer-gif {
         margin-top: 10px;
     }
     .pokemon-gif {
-        margin-left: 50px;
         width: 400px;
         height: 1000px;
     }
     .pokemon-game {
-        width: 400px;
-        height: 380px;
+        width: 300px;
+        height: 300px;
         margin-top: 20px;
     }
     .contenedor-contacto {
@@ -689,12 +697,15 @@
         margin-bottom: 130px;
     }
     .intro-entrenador {
-        width: 1500px;
+        width: 80%;
         height: 800px;    
+    }
+    .earth-gif {
+        width: 80%;
     }
     .mundo-poke {
         width: 80%;
-        height: 1200px;
+        height: 38em;
     }
     .regiones-pokemon {
         margin-top: 25px;
@@ -712,13 +723,13 @@
         margin-top: 25px;
     }
     .idioma-pokemon {
-        height: 570px;
+        height: 50em;
     }
     .entrenador-pokemon {
-        height: 600px;
+        height: 55em;
     }
     .economia-pokemon {
-        height: 500px;
+        height: 45em;
     }
     .pokedollar {
         width: 200px;
