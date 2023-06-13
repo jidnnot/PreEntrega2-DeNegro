@@ -392,8 +392,6 @@ hr {
     height: 600px;
     margin-top: 20px;
 }
-
-
 /* Resolucion para laptop y pantallas mas grandes*/
 @media (max-width: 1024px) and (min-width: 769px) {
     /* Estilos para pantallas de escritorio */
