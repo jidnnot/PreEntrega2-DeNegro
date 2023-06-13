@@ -124,7 +124,6 @@ body {
 .introduccion {
     display: flex;
     width: 80%;
-    height: 55em;
 /* -----------------Bordes y Posicion--------------------*/
     border: black;
     border-width: 3px;
@@ -273,7 +272,6 @@ hr {
     border-width: 3px;
     border-style: solid;
     width: 80%;
-    height: 50em;
     margin-top: 100px;
    
 }
@@ -283,7 +281,6 @@ hr {
 .pikachu-dance {
     margin-top: 10px;
     width: 400px;
-    height: 1000px;
 }
 .trainer-gif {
     margin-top: 10px;
@@ -291,11 +288,9 @@ hr {
 .pokemon-gif {
     margin-left: 50px;
     width: 400px;
-    height: 1000px;
 }
 .pokemon-game {
     width: 400px;
-    height: 380px;
     margin-top: 20px;
 }
 .contenedor-contacto {
@@ -304,35 +299,21 @@ hr {
     margin-bottom: 130px;
 }
 .intro-entrenador {
-    width: 80%;
-    height: 800px;    
+    width: 80%;   
 }
 .mundo-poke {
     width: 80%;
-    height: 90em;
 }
 .regiones-pokemon {
     margin-top: 25px;
     width: 1000px;
-    height: 800px;
 }
 .ciudad-idioma {
     width: 80%;
-    height: 2000px;
 }
 .pokemon-y-entrenador {
     width: 300px;
-    height: 200px;
     margin-top: 25px;
-}
-.idioma-pokemon {
-    height: 45em;
-}
-.entrenador-pokemon {
-    height: 50em;
-}
-.economia-pokemon {
-    height: 40em;
 }
 .pokedollar {
     width: 200px;
@@ -510,7 +491,6 @@ hr {
     .introduccion {
         display: flex;
         width: 80%;
-        height: 60em;
     /* -----------------Bordes y Posicion--------------------*/
         border: black;
         border-width: 3px;
@@ -657,7 +637,6 @@ hr {
         border-width: 3px;
         border-style: solid;
         width: 80%;
-        height: 50em;
         margin-top: 100px;
         
     }
@@ -667,7 +646,6 @@ hr {
     .pikachu-dance {
         margin-top: 10px;
         width: 400px;
-        height: 1000px;
     }
     .trainer-gif {
         margin-top: 10px;
@@ -675,11 +653,9 @@ hr {
     .pokemon-gif {
         margin-left: 50px;
         width: 400px;
-        height: 1000px;
     }
     .pokemon-game {
         width: 400px;
-        height: 380px;
         margin-top: 20px;
     }
     .contenedor-contacto {
@@ -688,36 +664,22 @@ hr {
         margin-bottom: 130px;
     }
     .intro-entrenador {
-        width: 80%;
-        height: 800px;    
+        width: 80%;   
     }
     .mundo-poke {
         width: 80%;
-        height: 80em;
     }
     .regiones-pokemon {
         margin-top: 25px;
         width: 80%;
-        height: 800px;
     }
     
     .ciudad-idioma {
         width: 80%;
-        height: 2000px;
     }
     .pokemon-y-entrenador {
         width: 300px;
-        height: 200px;
         margin-top: 25px;
-    }
-    .idioma-pokemon {
-        height: 45em;
-    }
-    .entrenador-pokemon {
-        height: 600px;
-    }
-    .economia-pokemon {
-        height: 40em;
     }
     .pokedollar {
         width: 200px;
@@ -1681,7 +1643,6 @@ hr {
     .introduccion {
         display: flex;
         width: 80%;
-        height: 60em;
     /* -----------------Bordes y Posicion--------------------*/
         border: black;
         border-width: 3px;
@@ -1829,7 +1790,6 @@ hr {
         border-width: 3px;
         border-style: solid;
         width: 80%;
-        height: 55em;
         margin-top: 100px;
         padding: 20px;
     }
@@ -1839,18 +1799,18 @@ hr {
     .pikachu-dance {
         margin-top: 10px;
         width: 300px;
-        height: 400px;
+        height: 300px;
     }
     .trainer-gif {
         margin-top: 10px;
+        height: 200px;
     }
     .pokemon-gif {
-        width: 400px;
-        height: 1000px;
+        width: 80%;
+        height: 200px;
     }
     .pokemon-game {
         width: 300px;
-        height: 300px;
         margin-top: 20px;
     }
     .contenedor-contacto {
@@ -1859,29 +1819,26 @@ hr {
         margin-bottom: 130px;
     }
     .intro-entrenador {
-        width: 80%;
-        height: 800px;    
+        width: 80%;   
     }
     .earth-gif {
         width: 80%;
     }
     .mundo-poke {
         width: 80%;
-        height: 38em;
     }
     .regiones-pokemon {
         margin-top: 25px;
-        width: 1000px;
-        height: 800px;
+        width: 80%;
+        height: 1px;
+        visibility: hidden;
     }
     
     .ciudad-idioma {
         width: 80%;
-        height: 2000px;
     }
     .pokemon-y-entrenador {
         width: 300px;
-        height: 200px;
         margin-top: 25px;
     }
     .idioma-pokemon {
@@ -1892,6 +1849,392 @@ hr {
     }
     .economia-pokemon {
         height: 45em;
+    }
+    .pokedollar {
+        width: 200px;
+        height: 200px;
+    }
+    .container-final {
+        margin-bottom: 40px;
+    }
+    .pikachu-saludando {
+        width: 450;
+        height: 480;
+    }
+    .pokemon-iniciales {
+        width: 500px;
+        height: 250px;
+        margin-top: 25px;
+    }
+    .contenedor-pokemon {
+        height: 600px;
+    }
+    .contenedor-especies {
+        height: 750px;
+    }
+    .contenedor-tipos {
+        height: 1800px;
+        margin-bottom: 40px;
+    }
+    .tipos-pokemon {
+        height: 600px;
+        width: 800px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .tabla-de-tipos {
+        height: 600px;
+        width: 700px;
+        margin-top: 30px;
+    }
+    .poke-juegos {
+        height: 960px;
+    }
+    .pokemon-juego {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .poke-manga {
+        height: 760px;
+    }
+    .manga-pokemon {
+        margin-top: 20px;
+    }
+    .poke-anime {
+        height: 900px;
+    }
+    .pokemon-portada {
+        width: 400px;
+        height: 600px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 360px) {
+    body {
+        background-color: #212529;
+        /* background-image: url(../preEntregaDeNegro/images/fondo.webp); */
+        background-size: cover;
+    }
+    /* Aca va todo lo que va a estar escondido */
+    .escondido {
+        visibility: hidden;
+    }
+    /* Aca va el alineamiento del titulo */
+    .alineado-titulo {
+        position: relative;
+        top: 2em;
+        left: 1em;
+    }
+    /* Aca va el diseño del Encabezado */
+    .encabezado {
+        border-color: black;
+        border-style: solid;
+        border-width: 5px;
+        width: 100%;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: center;
+        background-color: #264653;
+    }
+    /* --------------------------------------*/
+    /* Logo del Header */
+    .logo {
+        width: 5em;
+        padding-right: 1em;
+        position: absolute;
+        left: 1%;
+        visibility: hidden;
+    }
+    /* --------------------------------------*/
+    /* Titulo que lleva a la Pag. Principal */
+    .titulo-main {
+        color: black;
+        font-weight: 400;
+        text-decoration: none;
+        font-size: 30px;
+        display: inline-block;
+        position: absolute;
+        top: 14%;
+        left: 4%;
+    }
+    /* --------------------------------------*/
+    /* Botones/Links que llevan a otra pag. */
+    .link-otra-pagina {
+    /* -----------------Margenes y Padding--------------------*/
+        display: inline-block;
+        width: 8.5em;
+        height: 60px;
+        padding: 15px;
+        margin-left: 3px;
+        margin-right: 3px;
+    /* -----------------Parte Visual--------------------*/    
+        background-color: #2a9d8f;
+        color: black;
+        font-size: 20px;
+        font-weight: bolder;
+        text-decoration: none;
+        text-align: center;
+    /* -----------------Bordes--------------------*/
+        border: black;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 10px;
+    }
+    /* --------------------------------------*/
+    /* Aca va el diseño del Indice */
+    .indice {
+    /* -----------------Bordes--------------------*/
+        border: black;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 10px;
+    /* -----------------Display y Position--------------------*/
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        position: fixed;
+        right: 108em;
+        top: 20px;
+    /* -----------------Margenes y Tamaño--------------------*/
+        margin-top: 18em;
+        margin-left: 3em;
+        width: 160px;
+        height: 400px;
+        padding-top: 10px;
+    
+    /* -----------------Parte Visual--------------------*/ 
+        background-color: #264653;    
+    }
+    /* Logo del Indice */
+    .logo-indice {
+        width: 5em;
+        padding-bottom: 13px;
+    }
+    /* Lista Indice */
+    .lista-indice, a {
+    /* -----------------Parte Visual--------------------*/
+        text-decoration: none;
+        color: black;
+    }
+    .lista-indice {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: start;
+        font-size: 20px;
+        list-style: square inside;
+        
+        
+    }
+    /* --------------------------------------*/
+    /* Aca va el diseño del Section */
+    .introduccion {
+        display: flex;
+        width: 80%;
+    /* -----------------Bordes y Posicion--------------------*/
+        border: black;
+        border-width: 3px;
+        border-style: solid;
+    /* -----------------Parte Visual--------------------*/
+        /* flex-direction: column; */
+        justify-content: center;
+        text-decoration: none;
+        text-align: center;
+        overflow: hidden;
+        align-items: center; 
+        flex-direction: column; 
+    /* -----------------Margenes y Padding--------------------*/
+        padding: 20px;
+        margin-top: 4em;
+    }
+    .bienvenida {
+        font-size: 40px;
+        color: white;
+    
+    }
+    .sub-titulo {
+        font-size: 25px;
+        color: white;
+    
+    }
+    hr {
+        height: 1px;
+        width: 60%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        background-color: red;
+        
+    }
+    .texto {
+        font-size: 20px;
+        color: white;
+    }
+    /* Diseño del Footer */
+    .pie-de-pagina {
+    /* -----------------Bordes y Position--------------------*/
+        border: black;
+        border-style: solid;
+        border-width: 5px;
+        bottom: 0; 
+    /* -----------------Flex, Padding y margin--------------------*/
+        padding-top: 1em;
+        padding-bottom: 1em;
+        margin-top: 10em;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: end;
+        align-items: center;
+        background-color: #264653;
+        /* width y height*/
+        width: 100%;
+        height: 6em;
+        position: relative;
+    }
+    .contenedor-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .formulario {
+        width: 40%;
+        height: 28em;
+        margin-top: 10%;
+        margin-left: 100px;
+        border: black;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 10px;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #264653;
+    }
+    .formulario-titulo {
+        color: black;
+        margin-top: 5%;
+        position: relative;
+        bottom: 30px;
+        font-size: 38px;
+    }
+    .datos-formulario {
+        position: relative;
+        right: 50px;
+    }
+    .label-texto {
+        font-size: 20px;
+        font-weight: bold;
+        margin-right: 10px;
+        display: block;
+    }
+    .mensaje {
+        height: 180px;
+        width: 100%;
+        resize: none;
+        font-size: 20px;
+    }
+    .boton-enviar {
+        font-size: 20px;
+    }
+    .mi-info {
+        background-color: #264653;
+        border: black;
+        border-width: 5px;
+        border-radius: 10px;
+        border-style: solid;
+        width: 40%;
+        height: 28em;
+        margin-top: 10%;
+        margin-right: 100px;
+        display: inline-flex;
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .info-titulo {
+        
+        position: relative;
+        font-size: 38px;
+        bottom: 50px;
+        left: 140px;
+    }
+    .info {
+        color: white;
+        font-size: 30px;
+        position: relative;
+        right: 70px;
+    
+    }
+    .info-general {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: black;
+        border-width: 3px;
+        border-style: solid;
+        width: 80%;
+        height: auto;
+        margin-top: 100px;
+        padding: 20px;
+    }
+    .titulo-generico {
+        margin-top: 20px;
+    }
+    .pikachu-dance {
+        margin-top: 10px;
+        width: 300px;
+        height: 300px;
+    }
+    .trainer-gif {
+        margin-top: 10px;
+        height: 200px;
+    }
+    .pokemon-gif {
+        width: 80%;
+        height: 200px;
+    }
+    .pokemon-game {
+        width: 300px;
+        margin-top: 20px;
+    }
+    .contenedor-contacto {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 130px;
+    }
+    .intro-entrenador {
+        width: 80%;   
+    }
+    .earth-gif {
+        width: 80%;
+    }
+    .mundo-poke {
+        width: 80%;
+    }
+    .regiones-pokemon {
+        margin-top: 25px;
+        width: 80%;
+        height: 1px;
+        visibility: hidden;
+    }
+    
+    .ciudad-idioma {
+        width: 80%;
+    }
+    .pokemon-y-entrenador {
+        width: 200px;
+        margin-top: 25px;
     }
     .pokedollar {
         width: 200px;
