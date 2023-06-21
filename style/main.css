@@ -1566,6 +1566,7 @@ hr {
         display: inline-block;
         position: absolute;
         left: 6%;
+        top: 12%;
     }
     /* --------------------------------------*/
     /* Botones/Links que llevan a otra pag. */
@@ -1790,6 +1791,7 @@ hr {
         border-width: 3px;
         border-style: solid;
         width: 80%;
+        height: auto;
         margin-top: 100px;
         padding: 20px;
     }
@@ -1858,55 +1860,56 @@ hr {
         margin-bottom: 40px;
     }
     .pikachu-saludando {
-        width: 450;
-        height: 480;
+        width: 300px;
     }
     .pokemon-iniciales {
-        width: 500px;
-        height: 250px;
+        width: 200px;
+        height: 100px;
         margin-top: 25px;
     }
-    .contenedor-pokemon {
-        height: 600px;
-    }
-    .contenedor-especies {
-        height: 750px;
-    }
     .contenedor-tipos {
-        height: 1800px;
         margin-bottom: 40px;
     }
     .tipos-pokemon {
-        height: 600px;
-        width: 800px;
+        height: auto;
+        width: 320px;
         margin-top: 30px;
         margin-bottom: 30px;
     }
     .tabla-de-tipos {
-        height: 600px;
-        width: 700px;
+        height: auto;
+        width: 300px;
         margin-top: 30px;
     }
     .poke-juegos {
-        height: 960px;
+        height: auto;
     }
     .pokemon-juego {
         margin-top: 20px;
         margin-bottom: 20px;
+        width: 300px;
+        height: auto;
+    }
+    .pokemon-especies {
+        width: 300px;
     }
     .poke-manga {
-        height: 760px;
+        height: auto;
     }
     .manga-pokemon {
         margin-top: 20px;
     }
     .poke-anime {
-        height: 900px;
+        height: auto;
     }
     .pokemon-portada {
-        width: 400px;
-        height: 600px;
+        width: 300px;
+        height: auto;
         margin-top: 20px;
+    }
+    .mudkip-baile {
+        width: 300px;
+        height: auto;
     }
 }
 @media (max-width: 360px) {
@@ -1958,7 +1961,7 @@ hr {
         font-size: 30px;
         display: inline-block;
         position: absolute;
-        top: 14%;
+        top: 20%;
         left: 4%;
     }
     /* --------------------------------------*/
